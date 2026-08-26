@@ -1,47 +1,31 @@
-# Number Guessing Game 🎯
+# 🎯 Number Guessing Game
 
-A simple number guessing game built using Python. The user chooses a range, and the program generates a random number within that range. The player then tries to guess the number with hints provided by the program.
+A simple Python game where the computer randomly selects a number within a range chosen by the user. The player then tries to guess the number with hints provided after each attempt.
 
-## Features
+## ✨ Features
 
-* Allows the user to choose the lowest and highest numbers.
-* Generates a random number within the selected range.
-* Gives a **"Too low"** or **"Too high"** hint after each incorrect guess.
-* Counts the number of attempts.
-* Validates user input using exception handling.
-* Prevents the user from guessing outside the selected range.
-* Handles invalid ranges and invalid inputs.
+* 🎲 Generates a random number using Python's `random` module
+* 🔢 Allows the user to choose the number range
+* 🎯 Gives hints when the guess is too high or too low
+* 📊 Counts the number of attempts
+* ✅ Validates the selected number range
+* ⚠️ Handles invalid inputs using `try-except`
+* 🚫 Prevents guesses outside the selected range
 
-## Technologies Used
+## ⚙️ How It Works
 
-* Python
-* `random` module
-* `while` loops
-* `if-elif-else` statements
-* `try-except` exception handling
-* User input
+1. The user enters the **lowest** and **highest** numbers for the range.
+2. The program validates the range.
+3. A random number is generated using `random.randint()`.
+4. The user enters a guess.
+5. The program checks the guess and provides a hint:
 
-## How to Run
+   * ⬇️ **Too low** — the guess is smaller than the hidden number.
+   * ⬆️ **Too high** — the guess is larger than the hidden number.
+   * 🎉 **Correct** — the game ends.
+6. The number of attempts is displayed when the player guesses correctly.
 
-Make sure Python is installed on your computer.
-
-Open the project folder in a terminal and run:
-
-```bash
-python number_guessing_game.py
-```
-
-## How the Game Works
-
-1. Enter the lowest number of the range.
-2. Enter the highest number of the range.
-3. The program generates a random number within that range.
-4. Enter your guess.
-5. The program tells you whether your guess is too high or too low.
-6. Continue guessing until you find the correct number.
-7. The program displays the number of attempts taken.
-
-## Example
+## 🖥️ Example
 
 ```text
 Enter the lowest number of the range: 1
@@ -49,17 +33,54 @@ Enter the highest number of the range: 100
 
 Welcome to the Number Guessing Game!
 Guess a number between 1 and 100.
-
 Enter your guess: 50
-Too low! Try again.
-
-Enter your guess: 75
 Too high! Try again.
-
-Enter your guess: 63
+Enter your guess: 25
+Too low! Try again.
+Enter your guess: 37
 Congratulations! You guessed the number correctly in 3 attempts.
 ```
 
-## Purpose
+## 📋 Requirements
 
-This project was created to practice basic Python programming concepts such as loops, conditional statements, user input, random number generation, and exception handling.
+* 🐍 Python 3.x
+* No external libraries are required.
+
+## 🚀 How to Run
+
+1. Make sure Python is installed on your computer.
+2. Open a terminal in the project folder.
+3. Run the program:
+
+```bash
+python number_guessing_game.py
+```
+
+4. Enter the lowest and highest numbers for your desired range.
+5. Start guessing!
+
+## 📚 Project Level
+
+**Beginner / Basic Python Project**
+
+This project is useful for practicing:
+
+* `while` loops
+* `if-elif-else` statements
+* Functions and user input
+* `try-except` exception handling
+* Variables
+* `f-strings`
+* Python modules
+* Random number generation
+* Input validation
+
+## ⚠️ Note
+
+This project is created for learning and practicing basic Python programming concepts.
+
+## 👨‍💻 Author
+
+**Roshan Kumar Yadav**
+
+Created as a beginner Python project to practice basic Python programming concepts.

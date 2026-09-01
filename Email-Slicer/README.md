@@ -24,7 +24,7 @@ A simple Python **Email Slicer** that extracts useful information from an email 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/email-slicer.git
+git clone https://github.com/roshanyadav7/email-slicer.git
 ```
 
 ### 2. Navigate to the Project Folder

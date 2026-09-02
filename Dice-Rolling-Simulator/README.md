@@ -32,7 +32,7 @@ Dice-Rolling-Simulator/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/roshanyadav7/dice-rolling-simulator.git
+git clone https://github.com/roshanyadav7/Python-Basic-Projects.git
 ```
 
 ### 2. Open the project folder

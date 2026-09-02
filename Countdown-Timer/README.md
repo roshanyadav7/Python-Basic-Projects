@@ -25,7 +25,7 @@ The program also includes **input validation** to prevent crashes when invalid o
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/roshanyadav7/countdown-timer.git
+git clone https://github.com/roshanyadav7/Python-Basic-Projects.git
 ```
 
 ### 2. Navigate to the Project Folder

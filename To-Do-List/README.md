@@ -45,7 +45,7 @@ Make sure Python is installed on your system.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/roshanyadav7/Python-To-Do-List.git
+git clone https://github.com/roshanyadav7/Python-Basic-Projects.git
 ```
 
 ### 2. Navigate into the project
